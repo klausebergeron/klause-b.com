@@ -1,0 +1,114 @@
+.main {
+	position: absolute;
+	top: 81px;
+	padding-top: 1em;
+	width: 75%;
+	height: 100%;
+	right: -8px;
+	text-align: right;
+	z-index: -1;
+}
+#mainBackground {
+	position: fixed;
+	top: 0px;
+	padding-top: 1em;
+    width: 75%;
+	height: 100%;
+    right: 0;
+	background: #D6D5CC;
+	opacity:0.5;
+	z-index: -5;
+}
+	
+table#main {
+	width: 90%;
+	margin: 5%;
+	height: 100%;
+}
+
+
+
+.artContainer {
+	
+	width: 33%;
+	padding: 1%;
+}
+
+div .outerArtContainer
+{	
+	position: relative;
+	white-space: nowrap;
+	width: 90%;
+	height: 30rem;
+	padding: 8%;
+	border-style: solid;
+	border-color: #BCBCBC;
+	background: white;
+	vertical-align: middle;
+
+}
+
+.scalingArtContainer {
+	position: relative;
+	display: block;
+    height: 340px;
+	max-width: 100%;
+	line-height: 340px;
+	vertical-align: middle;
+	
+}
+
+
+.picture {
+	position: relative;
+	display: inline-block;
+	max-width:100%;
+	height: auto;
+	max-height: 100%;
+	vertical-align: middle;
+	border-style: solid;
+	border-color: #BCBCBC;
+}
+
+
+
+.ttl {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-family: 'Delius';
+	font-size: 13pt;
+	margin:0;
+	width:100%;
+	display: block;
+}
+
+.descript {
+	font-family: 'Bellefair';
+	position: relative;
+	text-align: left;
+	margin: 1%;
+	margin-top: 5%;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 103%;
+  width: 103%;
+  opacity: 0;
+  transition: .5s;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+	font-size: 16pt;
+	font-family: 'Delius';
+}
+.scalingArtContainer:hover .overlay {
+	opacity: 0.8;
+}

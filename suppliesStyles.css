@@ -1,0 +1,84 @@
+.mainTables{
+	display: flex;
+	width: 50%;
+	border-style: solid;
+	height: auto;
+	min-height: 90%;
+	margin:1%;
+	background: white;
+	padding-bottom: 5%;
+}
+
+#store {
+	float: left;
+}
+
+#receipt {
+	float: right;
+}
+
+.mainTables tbody {
+	width: 100%;
+}
+.mainTables th {
+	font-size: 18pt;
+	text-align: center;
+	font-family: 'IM Fell DW Pica';
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.mainTables td {
+	text-align: left;
+}
+
+.inHead {
+	font-size: 16pt;
+	text-align: left;
+	font-family: 'IM Fell DW Pica';
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: grey;
+}
+
+.mm {
+	width:40%; 
+	border-style: none; 
+	display: inline-block;
+}
+
+.f {
+	font-size: 10pt;
+	margin-top: 3%;
+	float:right;
+	max-width: 50%;
+}
+
+.quantity{
+	text-align: right;
+	width: 20%;
+}
+
+.add {
+	font-size: 10pt;
+	border-radius: 5px;
+	margin-right: 5%;
+}
+.add:hover {
+	cursor: pointer;
+}
+
+.pricePrev {
+	font-size: 16pt;
+	text-align: left;
+	font-family: 'IM Fell DW Pica';
+	display: inline-flex;
+	max-width: 30%;
+}
+
+
+.recItem {
+	padding:5%;
+}

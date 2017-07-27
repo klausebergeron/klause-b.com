@@ -1,0 +1,35 @@
+.cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.item {
+	margin:auto;
+	width:auto;
+	flex-basis: auto;
+}
+
+.innercont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.flexcol {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.flexrow {
+	display: flex;
+	width: 100%;
+	flex-flow: row nowrap;
+	align-self: stretch;
+	justify-content: space-between;
+
+}

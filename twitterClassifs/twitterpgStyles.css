@@ -1,0 +1,142 @@
+#mainBox {
+	position: relative;
+	background: #1da1f2; 
+	color:white; 
+	width: 50%; height: auto; 
+	margin:auto; 
+	font-family: Arial,sans-serif; 
+	border-radius: 70px;
+	padding:3%; 
+	border-color: #0084B4; 
+	border-style: solid; border-width: 5%;
+}
+
+#textBox {
+	position: relative;
+	background: white;
+	border-radius: 70px;
+	width: 50%; height: auto; 
+	margin:auto; 
+	font-family: Arial,sans-serif; 
+	border-radius: 30px;
+	padding:3%;
+	padding-top: 0;
+	border-color: #0084B4; 
+	border-style: solid; border-width: 5%;
+	color: black;
+}
+
+#numTracker {
+	position: relative;
+	top:0;
+	width:105%;
+	height: auto;
+	font-size: 10pt;
+	background: rgba(132, 133, 135, 0.5);
+	color:white;
+	padding-left: 5%;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	margin-left: -5%;
+}
+
+.content {
+	z-index: -1;
+	position: relative;
+	background: white;  
+	height:100%; 
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.inBox {
+	text-align:center; 
+	position: relative;
+	height: auto;
+	width: auto;
+	margin:5%;
+	font-size: 18pt;
+}
+
+.field {
+	border-style: solid;
+	border-color: #0084B4;
+	border-radius: 20px;
+	height: 20px;
+	padding:15px;
+	text-decoration: none;
+}
+
+.goBack
+{
+	background: #1da1f2;
+	border-color: white; 
+	display: block; 
+	text-align: center; 
+	margin:auto;
+	margin-top: 5%;
+	width:80px;
+}
+
+
+#tLogo {
+	width: 20px; 
+	height:20px; 
+	margin-right:10px;
+	display: inline-block; 
+	padding: 5px; 
+	background: white; 
+	border-radius: 10px;
+	border-color: #0084B4; 
+	border-style: solid; 
+	border-width: 5%;
+	float:right;
+
+}
+
+#loginBox {
+	display: block;
+}
+
+.errMsg {
+	text-align: center;
+	margin: auto;
+	display: block;
+	color: red;
+	font-size: 30pt;
+	background: white;
+}
+
+.loginInf {
+	margin: 2%;
+	position: relative;
+	display: inline-block;
+	width:90%;
+	height: auto;
+	border-bottom-style: solid;
+	border-bottom-color: #0084B4;
+	font-size: 18pt;
+	font-weight: bold;
+	font-family: Arial,sans-serif; 
+	padding: 15px;
+}
+
+h3 {
+	margin-top: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	font-size: 15pt;
+}
+
+.yn {
+	display: inline-block;
+	margin:5%;
+	position: relative;
+	height: auto;
+	padding:1%;
+	width:25%;
+	font-size: 12pt;
+	background-color: rgba(195, 195, 195, 1);
+	cursor: pointer;
+}

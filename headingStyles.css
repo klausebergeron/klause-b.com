@@ -1,0 +1,61 @@
+  #heading{
+            display: inline;
+            font-weight:bold;
+            font-size: 12pt;
+            margin:0;
+            padding:15px;
+            float: left;
+            vertical-align: center;
+            text-align: center;
+        }
+            .headingBar {
+                list-style-type: none;
+                width = 100%;
+                margin: 0;
+                overflow: hidden;
+            }
+            .toplist {
+                display: inline;
+                float: right;
+            }
+
+            .toplist a {
+                    display: block;
+                    align: center;
+                    color: black;
+                    text-align: center;
+                    font-size: 12pt;
+                    height:25px;
+                    width:125px;
+                    padding: 14px 25px;
+                    text-decoration: none;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: #b8b9ba;
+            }
+
+                .toplist a:hover {
+                    text-decoration: underline;
+                }
+
+            .logo {
+                width:75px;
+                height:64px;
+                padding-left: 2px;
+                padding-right: 10px;
+            }
+
+            #heading name {
+                position:relative;
+                display: inline-block;
+                font-size: 18pt;
+                font-family: Caveat;
+            }
+
+            #underline {
+                height: 1px;
+                width: 100%;
+                background: #333;
+                margin-bottom: 6.5%;
+                float: center;
+        }
