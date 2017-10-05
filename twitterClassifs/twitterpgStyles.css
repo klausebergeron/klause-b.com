@@ -4,9 +4,11 @@
 	color:white; 
 	width: 50%; height: auto; 
 	margin:auto; 
+	margin-bottom:60%;
 	font-family: Arial,sans-serif; 
 	border-radius: 70px;
-	padding:3%; 
+	padding:1%;
+	text-align: center; 
 	border-color: #0084B4; 
 	border-style: solid; border-width: 5%;
 }
@@ -42,11 +44,12 @@
 
 .content {
 	z-index: -1;
-	position: relative;
-	background: white;  
+	position: absolute;
+	background: white; 
 	height:100%; 
 	margin-left: 5%;
 	margin-right: 5%;
+	width: 90%;
 }
 
 .inBox {
@@ -108,17 +111,22 @@
 }
 
 .loginInf {
-	margin: 2%;
 	position: relative;
 	display: inline-block;
 	width:90%;
 	height: auto;
-	border-bottom-style: solid;
-	border-bottom-color: #0084B4;
-	font-size: 18pt;
 	font-weight: bold;
 	font-family: Arial,sans-serif; 
 	padding: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.topLF {
+	margin-top: 2%;
+	border-bottom-style: solid;
+	border-bottom-color: #0084B4;
+	font-size: 18pt;
 }
 
 h3 {

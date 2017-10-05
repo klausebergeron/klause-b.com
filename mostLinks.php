@@ -21,6 +21,8 @@ echo "  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='st
         <script type='text/javascript' href='bootstrap-4.0.0-alpha.6-dist/js/bootstrap.js'></script>
         <script type='text/javascript' href='bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js'></script>
         <meta charset='utf-8'>
+        <link rel='shortcut icon' href='favicon.ico' >
+        <LINK REL='SHORTCUT ICON' HREF='/~your_directory/logo.ico'>
         ";
 }
         ?>

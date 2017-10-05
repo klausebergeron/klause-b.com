@@ -11,7 +11,7 @@ div#underlinethin {
 }
 
 div#sideBar {
-	position: absolute;
+	position: fixed;
 	top: 60px;
 	padding-top: 1em;
     width: 25%;
@@ -20,18 +20,29 @@ div#sideBar {
 	text-align: right;
 }
 
+
+
 .title {
 	position: relative;
 	margin-right: 3% ;
 	padding:3%;
-	padding-bottom: 0;
-	margin-top: 20%;
+	padding-bottom: 1%;
+	margin-top: 10%;
 	font-size: 100pt;
 	font-family: Barrio;
 	top:0px;
 	margin-bottom: 0;
 }
 
+@media (max-width: 992px) {
+	.title {
+		margin: 0;
+		margin-left:10%;
+		font-size: 60pt;
+		padding:1%;
+		float:left;
+	}
+}
 
 h2 {
 	position: relative;
@@ -68,4 +79,15 @@ p2 {
 	width: 120%;
 	margin-top:0;
 	font-family: 'Bubbler One';
+}
+
+.moveright {
+	left:24%;
+}
+
+@media (max-width: 420px) {
+	.moveright {
+	justify-content: none;
+	left:0;
+}
 }

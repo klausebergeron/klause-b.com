@@ -1,0 +1,531 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201707 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 11818               
+POS_DAY 15641               
+POS_DOMAIN 3322                
+POS_LOGIN 3556                
+POS_ROBOT 3711                
+POS_WORMS 3979                
+POS_EMAILSENDER 4110                
+POS_EMAILRECEIVER 4253                
+POS_SESSION 16470               
+POS_SIDER 16679               
+POS_FILETYPES 4388                
+POS_OS 4628                
+POS_BROWSER 4738                
+POS_SCREENSIZE 5033                
+POS_UNKNOWNREFERER 5107                
+POS_UNKNOWNREFERERBROWSER 5571                
+POS_ORIGIN 5939                
+POS_SEREFERRALS 6083                
+POS_PAGEREFS 6238                
+POS_SEARCHWORDS 6711                
+POS_KEYWORDS 6863                
+POS_MISC 2199                
+POS_ERRORS 6922                
+POS_CLUSTER 3412                
+POS_SIDER_404 7051                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170801130942 1 0 7704562607873
+FirstTime 20170701045122
+LastTime 20170731195308
+LastUpdate 20170802044909 1 0 0 0 0
+TotalVisits 166                 
+TotalUnique 84                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 100                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 139 203 495764 2 2 575
+1 490 640 7820500 2 2 1281
+2 200 313 7936593 19 53 31650
+3 38 122 11387860 8 13 7475
+4 20 130 1528822 0 4 2300
+5 35 40 761018 4 27 239444
+6 10 49 6043970 4 4 2300
+7 1 1 2573 0 0 0
+8 782 792 2445151 13 13 6325
+9 472 476 1251542 2 2 0
+10 163 168 602003 4 5 2875
+11 220 233 932155 3 3 3148
+12 82 188 7677797 5 6 1725
+13 248 295 2024051 9 10 5750
+14 32 91 3753131 1 1 575
+15 236 339 2214727 6 6 3450
+16 612 660 3305725 14 74 42550
+17 1174 1196 3765788 6 33 19368
+18 68 150 7371766 6 7 6023
+19 186 275 7604704 4 4 3723
+20 829 963 22186436 5 7 4025
+21 958 1083 12083709 27 63 36225
+22 645 727 9023988 2 4 2300
+23 111 208 8003105 16 23 15106
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 7751 9342 130222878
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+\wbot[\/\-] 6 231365 20170731052150 0
+surveybot 1 2573 20170714193949 0
+googlebot 1 2456 20170721231141 0
+crawl 1 2573 20170713025141 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 783 5368690 0 0
+png 422 19152302 0 0
+cgi 5 68982 0 0
+txt 2 3083604 0 0
+php 7541 46498882 0 0
+map 7 620932 0 0
+html 190 1136057 0 0
+shtml 6 51202 0 0
+js 16 301491 0 0
+jpg 370 53940736 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 3939
+winlong 4
+winxp 4
+win2003 1
+winnt 5348
+Unknown 13
+linux 33
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 19
+firefox50.0 1
+msie6.0 2
+firefox48.0 1
+firefox42.0 1
+opera 1
+firefox52.0 2
+firefox3.6.2 1
+firefox54.0 201
+firefox49.0 1
+firefox30.0 1
+firefox24.0 1
+msie8.0 4
+mozilla 3446
+msie7.0 1
+firefox3.6.3 1
+msie9.0 1
+Unknown 11
+safari 5663
+firefox15.0.1 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Snapchat/10.13.2.0_(iPhone6,1;_iOS_10.3.1;_gzip) 20170727142513
+facebookexternalhit/1.1 20170722211039
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170730090218
+Mozilla/6.0_(compatible) 20170707234910
+Mozilla/5.0_(compatible;_ips-agent) 20170715123056
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20170727142517
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Snapchat/10.13.2.0_(iPhone6,1;_iOS_10.3.1;_gzip) 20170727142513
+facebookexternalhit/1.1 20170722211039
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170730090218
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20170727142517
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 191 222
+From1 0 0
+From2 2 2
+From3 123 300
+From4 7435 8818
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://127.0.0.1:59604/preview/app/index.html 91 91
+http://m.facebook.com 17 17
+https://www.facebook.com 5 5
+http://163.238.35.166/~bergeron/ 5 131
+https://register.hostingplatform.com/filemanager 2 2
+http://l.facebook.com/l.php 2 2
+http://163.238.35.166/~bergeron/index.html 1 47
+http://localhost/public_html/index.html 0 5
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 1 660
+302 1 0
+500 4 2824
+404 350 195500
+301 1 242
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 74
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css 1 http://klause-b.com/
+/robots.txt 15 -
+/writing_works/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css 23 http://klause-b.com/writing_works/melody.php
+/twitterClassifs/classify_tweets.php 1 http://klause-b.com/twitterClassifs/classify_tweets_login.php
+/twitterClassifs/topbarStyles_t.css 1 -
+/Pen 2 http://klause-b.com/artpg.php
+/.well-known/apple-app-site-association 3 -
+/modals.css 1 -
+/Watercolor%20Pencil 2 http://klause-b.com/artpg.php
+/wordpress/wp-login.php 1 http://kaviemlak.com/wordpress/wp-login.php
+/Watercolors,%20Sharpie 2 http://klause-b.com/artpg.php
+/xmlrpc.php 3 -
+/Watercolors,%20Pencil,%20Pen,%20Sharpie 2 http://klause-b.com/artpg.php
+/writing_works/logos_buttons/bkgrd_antique.jpg 3 http://klause-b.com/writing_works/stress_fractures.php
+/Pencil 2 http://klause-b.com/artpg.php
+/websitesspg.php 5 http://klause-b.com/artpg.php
+/htdocs/twitterClassifs/streaming_tweets.txt 1 -
+/pieces.php 5 http://127.0.0.1:59604/preview/app/index.html
+/Watercolor%20Pencils,%20Pen,%20Sharpie,%20Wax 2 http://klause-b.com/artpg.php
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css 1 http://klause-b.com/
+/writing_works/logos_buttons/sanddollar.png 12 http://klause-b.com/writing_works/melody.php
+/writing_works/index.html 1 http://klause-b.com/writing_works/jamillaessay.php
+/Watercolor%20Pencils,%20Pen,%20Watercolors 2 http://klause-b.com/artpg.php
+/preload/ 3 http://klause-b.com/etsySource.html
+/flexBoxes.css 8 http://klause-b.com/artpg.php
+/writing_works/logos_buttons/bkgrd_blue.jpg 2 http://klause-b.com/writing_works/siliconFaerie.php
+/Watercolors 2 http://klause-b.com/artpg.php
+/writing_works/logos_buttons/bkgrd_shells.jpg 6 http://klause-b.com/writing_works/melody.php
+/losing.php 3 http://klause-b.com/writingpg.php
+/websitespg.html 4 -
+/administrator/ 2 -
+/Watercolors,%20Pen 2 http://klause-b.com/artpg.php
+/wp-includes/js/quicktags.js 1 -
+/wp-content/plugins/showbiz/temp/update_extract/NULLpOint7r__yajxv.php 1 -
+/shop_name_search_service 7 http://klause-b.com/etsySource.html
+/writing_works/websitespg.php 1 http://klause-b.com/writing_works/jamillaessay.php
+/wp-login.php 2 http://kernelfw.com/wp-login.php
+/api/v3/ajax/public/category-nav/view/subnav 9 http://klause-b.com/etsySource.html
+/researchpg.html 1 http://163.238.35.166/~bergeron/
+/js/tools.js 1 -
+/htdocs/customerrors/404.html 2 -
+/writing_works/logos_buttons/klause-b-stencil-logo8.png 11 http://klause-b.com/writing_works/jamillaessay.php
+/writing_works/writingpg.php 12 http://klause-b.com/writing_works/siliconFaerie.php
+/se/bootstrapmin.css 4 http://klause-b.com/siliconFaerie.php
+/.well-known/assetlinks.json 3 -
+/Greyscale%20Marker 2 http://klause-b.com/artpg.php
+/writing_works/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js 2 http://klause-b.com/writing_works/melody.php
+/wp-admin/admin-ajax.php 2 -
+/blog/ 3 http://klause-b.com/blog/
+/writingpg.html 2 http://163.238.35.166/~bergeron/
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-reboot.css 2 http://klause-b.com/
+/wp/ 1 -
+/programspg.php 2 http://klause-b.com/
+/Watercolors,%20Marker 2 http://klause-b.com/artpg.php
+/Greyscale%20Marker,%20Watercolor 2 http://klause-b.com/artpg.php
+/jquery.min.js 2 http://klause-b.com/artpg.php
+/wp/wp-login.php 1 http://khushaam.skynova.io/wp/wp-login.php
+/wp-content/plugins/revslider/temp/update_extract/NULLpOint7r__ukrbv.php 1 -
+/suppliesStyles.css 1 http://klause-b.com/supplies.php
+/apple-touch-icon-precomposed.png 1 -
+/writing_works/topBar.css 34 http://klause-b.com/writing_works/melody.php
+/administrator/index.php 1 -
+/components/com_content/metadata.xml 1 -
+/writing_works/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css 23 http://klause-b.com/writing_works/melody.php
+/topBarcssasdfadsfasdfasdfasdfasdf/asdfasdf 4 -
+/writing_works/sidebarStyles.css 23 http://klause-b.com/writing_works/melody.php
+/twitterClassifs/websitespg.php 10 http://klause-b.com/twitterClassifs/classify_tweets_login.php
+/peices.php 1 -
+/writing_works/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css 23 http://klause-b.com/writing_works/melody.php
+/twitterClassifs/logos_buttons/klause-b-stencil-logo8.png 15 http://klause-b.com/twitterClassifs/classify_tweets.php/vote.php
+/Watercolor%20Pencils 2 http://klause-b.com/artpg.php
+/twitterClassifs/classify_tweets_loginpg.php 1 http://klause-b.com/twitterClassifs/classify_tweets.php
+/apple-app-site-association 3 -
+/security/edid/signin-form 5 http://klause-b.com/etsySource.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 100
+67.250.105.214 2213 2225 5800993 20170728090805
+68.234.208.21 1330 1970 59369266 20170731132619
+151.202.44.3 1011 1072 8945592 20170730215709
+163.238.201.51 846 849 2443972 20170722175034
+96.250.197.144 816 1007 8367350 20170731163832
+172.58.232.222 497 500 1311998 20170725205328
+172.58.233.140 295 295 766611 20170725172134
+172.56.36.54 204 208 623511 20170722194454
+172.58.233.203 159 160 416824 20170726092802
+172.56.36.61 141 144 389427 20170730092720
+104.198.44.71 1 1 2573 20170714121838
+108.29.140.13 12 26 295725 20170723213326
+35.164.44.7 1 1 2456 20170720135851
+31.13.114.53 1 3 25013 20170722195639
+68.174.18.98 0 10 354524 
+66.249.83.85 2 2 6072 20170726233727
+91.210.145.202 1 1 3055 20170730153654
+172.58.232.228 0 5 177262 
+54.162.21.151 1 1 2573 20170713161349
+69.58.178.58 1 1 2573 20170715123056
+163.238.204.32 2 2 135654 20170725185209
+148.62.14.156 2 2 5146 20170701064217
+70.214.71.255 1 1 3055 20170729014159
+52.24.45.73 1 1 2456 20170719163936
+97.79.194.62 1 1 3055 20170728063640
+204.44.65.210 1 1 2573 20170708035816
+66.249.83.206 5 5 13347 20170729024327
+163.238.34.26 1 39 6433147 20170725185605
+66.65.68.33 12 22 465884 20170704131923
+24.189.49.78 0 45 1595358 
+82.80.230.228 2 6 157369 20170707234817
+72.69.151.242 0 15 561499 
+66.220.156.178 1 1 3281 20170718123053
+66.249.83.83 1 1 2456 20170718150446
+173.252.86.209 1 1 5026 20170730090218
+108.53.252.193 3 7 34546 20170718131021
+82.80.249.214 1 1 2573 20170707234727
+163.238.207.21 11 40 180951 20170727190023
+70.214.84.52 20 68 5995427 20170728200616
+212.83.158.95 1 1 2573 20170708222931
+173.252.90.89 1 1 3281 20170718123158
+73.202.71.14 2 8 407840 20170703083553
+163.238.55.144 2 2 6562 20170722162926
+70.214.82.25 14 59 8850864 20170728031119
+82.80.249.164 0 1 25039 
+85.143.218.11 1 1 0 20170724024346
+52.17.10.2 1 1 2573 20170706130657
+163.238.225.3 0 5 177262 
+66.220.156.182 1 1 3281 20170722194534
+70.214.64.56 4 7 18553 20170723004643
+138.246.253.19 1 1 0 20170727084443
+66.249.83.204 5 5 13328 20170722153035
+216.218.222.12 1 1 2573 20170712023546
+70.214.77.182 11 59 7037860 20170718131915
+34.212.156.95 1 1 2456 20170720115830
+158.69.252.227 1 1 2456 20170721153345
+173.252.114.112 0 1 18475 
+158.69.5.21 1 1 2456 20170717025008
+31.13.114.48 1 2 5579 20170722195717
+173.252.86.197 1 1 5084 20170722194221
+70.214.77.220 1 1 3036 20170723233555
+163.238.192.205 6 10 23393 20170718143747
+61.154.29.16 1 1 2573 20170706044712
+35.160.138.117 1 1 2573 20170712154727
+66.249.83.84 2 2 5029 20170720183516
+70.199.69.13 1 11 741697 20170712215616
+104.238.248.15 1 1 3036 20170723031938
+100.37.20.90 0 30 709048 
+38.100.21.62 1 1 2573 20170705135345
+35.165.75.205 1 1 3036 20170724134423
+208.82.12.114 0 10 354524 
+34.228.184.231 0 1 60135 
+163.238.194.251 0 5 177262 
+195.28.182.35 1 1 2456 20170717045000
+158.69.229.69 2 2 5628 20170730231057
+172.56.36.229 1 6 179835 20170708193344
+163.238.193.152 0 5 177262 
+173.252.91.100 1 1 3281 20170718123123
+68.234.208.23 54 274 4661888 20170729135859
+173.252.114.119 1 3 7033 20170718123200
+94.242.246.23 1 1 2573 20170712023531
+24.168.80.4 0 9 329485 
+163.238.194.177 0 5 177262 
+68.174.21.74 0 13 442280 
+107.178.194.126 1 1 3036 20170727142517
+70.214.85.238 2 2 6110 20170731190711
+146.185.144.64 1 1 2573 20170701170734
+66.249.83.202 7 7 18975 20170731195308
+52.33.41.149 1 1 3055 20170728140938
+100.38.190.81 0 5 177262 
+70.214.71.185 1 1 3036 20170724174553
+91.210.147.83 1 1 2573 20170710013506
+173.252.98.27 1 1 5084 20170722210340
+173.252.124.120 1 1 5084 20170722211039
+66.249.88.17 1 1 3055 20170731114928
+108.59.81.214 1 1 2573 20170706075114
+91.210.145.89 1 1 2573 20170707135328
+108.41.118.26 4 10 198179 20170712223325
+163.238.193.144 3 12 209460 20170712141106
+66.220.156.177 1 1 5084 20170722194225
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20170701 4 4 10292 4
+20170702 5 14 315997 2
+20170703 7 27 768855 3
+20170704 12 22 465884 1
+20170705 2 2 5146 2
+20170706 4 29 719340 4
+20170707 5 30 899175 5
+20170708 3 8 184981 3
+20170709 1 1 2573 1
+20170710 2 2 5146 2
+20170711 1 2 62708 1
+20170712 25 70 3480582 9
+20170713 3 23 716767 3
+20170714 93 114 1109999 3
+20170715 2 6 157369 2
+20170716 2 12 389383 2
+20170717 254 455 39652417 7
+20170718 348 666 15188316 12
+20170719 25 67 1554262 4
+20170720 21 27 337230 4
+20170721 47 103 4284238 3
+20170722 1079 1092 3165978 13
+20170723 827 962 4787188 12
+20170724 1015 1080 9196350 10
+20170725 1596 1651 10977740 7
+20170726 366 393 1997291 5
+20170727 408 483 4869640 9
+20170728 531 760 19742327 9
+20170729 142 174 1068327 6
+20170730 818 941 3770317 11
+20170731 103 122 337060 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 24
+0s-30s 96
+30s-2mn 4
+15mn-30mn 14
+2mn-5mn 12
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/twitterClassifs/classify_tweets.php 3601 17404719 25 30
+/twitterClassifs/vote.php 3157 380830 11 14
+/twitterClassifs/classify_tweets_login.php 311 19029907 13 10
+/artpg.php 203 7579165 9 11
+/ 153 378232 85 72
+/websitespg.php 82 577379 7 11
+/writingpg.php 40 308804 3 1
+/writing_works/siliconFaerie.php 27 137837 1 2
+/researchpg.php 17 83965 0 2
+/supplies.php 15 299814 0 1
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css.map 2 63054 0 0
+/includes/showHeadbar.php 10 0 1 1
+/researchpg.html 1 3815 0 0
+/writing_works/stress_fractures.php 3 45997 0 0
+/twitterClassifs/classify_tweets_login.html 7 20395 2 2
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css.map 1 68044 0 0
+/writingpg.html 3 15267 1 0
+/siliconFaerie.php 4 19501 1 0
+/programspg.php 15 83813 1 0
+/twitterClassifs/classify_tweets.php/vote.php 6 29910 0 0
+/404.shtml 6 51202 0 0
+/melody.html 2 23872 1 1
+/etsySource.html 4 577137 1 1
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-reboot.css.map 2 18644 0 0
+/writing_works/jamillaessay.php 9 109646 0 0
+/pieces.php 2 0 0 0
+/writing_works/belt.php 3 11033 0 0
+/melody.php 3 70892 0 0
+/stress_fractures.html 1 22237 0 0
+/writing_works/losing.php 3 13997 0 0
+/writing_works/gaps.php 3 13749 0 0
+/artpg.html 6 25204 2 3
+/programspg.html 2 9150 0 1
+/jamillaessay.php 1 13742 0 0
+/jamillaessay.html 1 13920 0 0
+/writing_works/melody.php 15 267408 0 1
+/twitterClassifs/streaming_tweets.txt 2 3083604 0 0
+/websitespg.html 10 46828 2 1
+/losing.php 1 4600 0 0
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css.map 2 471190 0 0
+/writing_works/siliconFaerie_ch2.php 2 10862 0 1
+/showHeadbar.php 8 1312 0 0
+/fileman/fileman.cgi 5 68982 0 0
+END_SIDER

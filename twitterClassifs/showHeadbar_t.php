@@ -41,7 +41,7 @@ function showHeadbar($page)
 
 function formatting($pg)
 {
-    echo "<li style='font-size:18; border-bottom-style:solid; border-bottom-width: 1px; border-color=grey;'><a style='color:white;' href='".$pg."pg.php'>".$pg."</a></li>";
+    echo "<li style='font-size:18; border-bottom-style:solid; border-bottom-width: 1px; border-color=grey;'><a style='color:white;' href='http://klause-b.com/".$pg."pg.php'>".$pg."</a></li>";
 };
 
 ?>

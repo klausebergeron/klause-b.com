@@ -1,5 +1,5 @@
 
-	table.to {
+	.to {
 		display: inline-block;
 		width:50%; 
 		margin:auto; 
@@ -7,6 +7,14 @@
 		margin-top:7%;
 		float:right;
 	}
+
+@media (max-width: 992px) {
+	.to {
+		width:90%;
+		margin-right:5%;
+		margin-top:60px;
+	}
+}
 
 td.extends {
 	width:20%;

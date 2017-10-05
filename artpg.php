@@ -10,18 +10,24 @@
     	require_once 'includes/showHeadbar.php';
 		include 'pieces.php';
 		include 'cartwork.php';
-		insertModalFunction($pic1); insertModalFunction($pic2); insertModalFunction($pic3); insertModalFunction($pic4);
-		insertModalFunction($pic5); insertModalFunction($pic6); insertModalFunction($pic7); insertModalFunction($pic8);
-		insertModalFunction($pic9); insertModalFunction($pic10); insertModalFunction($pic11); insertModalFunction($pic12);
-		insertModalFunction($pic13); insertModalFunction($pic14); insertModalFunction($pic15); insertModalFunction($pic16);
-		insertModalFunction($pic17); insertModalFunction($pic18); insertModalFunction($pic19); insertModalFunction($pic20);
-		insertModalFunction($pic21); insertModalFunction($pic22); insertModalFunction($pic23); insertModalFunction($pic24);
+		foreach ($pic as $value) {
+			insertModalFunction($value);}	
 	?>
 </head>
 
 <body>
+
+<?php
+@ $mysqli = new mysqli('mysqlcluster22', 'ftp3112864', 'calmD0wn!', 'klausebart');
+if ($mysqli->connect_errno) {
+            echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+        }
+else
+	console.log('Connected!');
+?>
+
     <?php showHeadbar('art'); ?>
-	<div id='sideBar' style="z-index: -1;">
+	<div id='sideBar' class='hidden-md-down' style="z-index: -1;">
 		<h1 class='title'>Art</h1>
 		<div id='underlinethin'></div>
 		<p1>This is a page<br> where you can browse my art stuff</p>
@@ -30,26 +36,17 @@
     
     <div>
     	<div id='Cart'></div>
-    	<?php insertModal($pic1); insertModal($pic2); insertModal($pic3); insertModal($pic4);
-		insertModal($pic5); insertModal($pic6); insertModal($pic7); insertModal($pic8);
-		insertModal($pic9); insertModal($pic10); insertModal($pic11); insertModal($pic12);
-		insertModal($pic13); insertModal($pic14); insertModal($pic15); insertModal($pic16);
-		insertModal($pic17); insertModal($pic18); insertModal($pic19); insertModal($pic20);
-		insertModal($pic21); insertModal($pic22); insertModal($pic23); insertModal($pic24); ?>
+    	<?php foreach ($pic as $value){
+			insertModal($value);} ?>
     </div>
     
     <div id='mainBackground'></div>
-    
 		<div class='main'>
-	  		<table id='main'>
-	  			<tr><?php	displayArt($pic1);	displayArt($pic4);	displayArt($pic10);	?></tr>
-				<tr><?php	displayArt($pic19);	displayArt($pic2);	displayArt($pic16);	?></tr>
-				<tr><?php	displayArt($pic21);	displayArt($pic20);	displayArt($pic3);	?></tr>
-				<tr><?php	displayArt($pic17);	displayArt($pic5);	displayArt($pic6);	?></tr>
-				<tr><?php	displayArt($pic7);	displayArt($pic8);	displayArt($pic9);	?></tr>
-				<tr><?php	displayArt($pic18);	displayArt($pic11);	displayArt($pic12);	?></tr>
-				<tr><?php	displayArt($pic13);	displayArt($pic14);	displayArt($pic15);	?></tr>
-				<tr><?php	displayArt($pic22);	displayArt($pic23);	displayArt($pic24);	?></tr>
+		<h1 class='title hidden-lg-up'>Art</h1>
+	  		<table id='main' class='container'>
+	  			<tr class='row'><?php	foreach ($pic as $value){
+			displayArt($value);}	?>
+		</tr>
 			</table> <!-- end of main table -->
 		</div> <!--end of main div -->
 		

@@ -6,10 +6,9 @@ function showHeadbar($page)
 	echo "
     
 		<nav class='header navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse' >
-   			
         	<a class='navbar-brand' href='index.html' style='width: 170px;'>
-				<img type='image' src='logos_buttons/klause-b-stencil-logo8.png' class='stencilLogo'>
-            	<name style='font-family: Caveat; color: white; font-size: 18pt;'>claudia bergeron</name>
+				<img type='image' src='logos_buttons/klause-b-logo-circled.png' class='stencilLogo'>
+            	<name style='font-family: Caveat; color: white; font-size: 18pt; vertical-align:middle;'>claudia bergeron</name>
         	</a>
 
 <button class='navbar-toggler navbar-toggler-right collapsed' type='button' data-toggle='collapse' data-target='#navbarCollapse' aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'>
@@ -19,19 +18,19 @@ function showHeadbar($page)
 				<ul class='navbar-nav ml-auto' style='font-family: Barrio; text-align: center;'>";
 					if($page == 'websites') {formatting('websites');}
 					else {echo "<li class='nav-item' style='margin-left:5px; margin-right:5px;'>
-							<a class='nav-link' style='height:100%; width:100%;' href='websitespg.php'>websites</a></li>";}
+							<a class='nav-link' style='height:100%; width:100%;' href='http://klause-b.com/websitespg.php'>websites</a></li>";}
 					if($page == 'art') {formatting('art');}
 					else {echo "<li class='nav-item' style='margin-left:5px; margin-right:5px;'>
-							<a class='nav-link' style='height:100%; width:100%;' href='artpg.php'>art</a></li>";}
+							<a class='nav-link' style='height:100%; width:100%;' href='http://klause-b.com/artpg.php'>art</a></li>";}
 					if($page =='research') {formatting('research');}
 					else {echo "<li class='nav-item' style='margin-left:5px; margin-right:5px;'>
-								<a class='nav-link' style='height:100%; width:100%;' href='researchpg.php'>research</a></li>";}
+								<a class='nav-link' style='height:100%; width:100%;' href='http://klause-b.com/researchpg.php'>research</a></li>";}
 					if($page == 'writing') {formatting('writing');}
 					else {echo "<li class='nav-item' style='margin-left:5px; margin-right:5px;'>
-								<a class='nav-link' style='height:100%; width:100%;' href='writingpg.php'>writing</a></li>";}
+								<a class='nav-link' style='height:100%; width:100%;' href='http://klause-b.com/writingpg.php'>writing</a></li>";}
 					if($page == 'programs') {formatting('programs');}
 					else {echo "<li class='nav-item' style='margin-left:5px; margin-right:5px;'>
-								<a class='nav-link' style='height:100%; width:100%;' href='programspg.php'>programs</a></li>";}
+								<a class='nav-link' style='height:100%; width:100%;' href='http://klause-b.com/Resume.pdf'>resume</a></li>";}
 
 					echo"
 				</ul>
@@ -48,7 +47,7 @@ function showHeadbar($page)
 
 function formatting($pg)
 {
-    echo "<li class='nav-item active'style='font-size:18; margin-left:5px; margin-right:5px; border-bottom-style:solid; border-bottom-width: 1px; border-color=grey;'><a class='nav-link' style='height:100%; width:100%; color:white;' href='".$pg."pg.php'>".$pg."</a></li>";
+    echo "<li class='nav-item active'style='font-size:18; margin-left:5px; margin-right:5px; border-bottom-style:solid; border-bottom-width: 1px; border-color=grey;'><a class='nav-link' style='height:100%; width:100%; color:white;' href='http://klause-b.com/".$pg."pg.php'>".$pg."</a></li>";
 };
 
 ?>

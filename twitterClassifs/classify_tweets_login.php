@@ -1,13 +1,6 @@
 <!DOCTYPE html>
     <html>
-    
-<!--- 
-    Flo
-    Grove
-    Konstantin
-    John
-    Mike
--->
+
 	<head>
         <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
@@ -49,18 +42,24 @@ foreach ($tweets as $key => $line) {
 }*/
 
 echo "<div class='content'>
-    <div id='underline' style='width: 100%; height: 5%; background: #fff; margin-bottom:5%;'></div>
+    <div id='underline' style='width: 100%; height: 2%; background: #fff; margin-bottom:5%;'></div>
+     
      <div id='mainBox'>
-        
-
             <form class='inBox' id='loginBox' action ='classify_tweets.php' method='POST'>
-                <label><b>Username</b></label><br>
-                    <input class='field' type='text' placeholder='Enter username' name='uname' required><br><br>
-                <label><b>Password</b></label><br>
-                    <input class='field' type='password' placeholder='Enter password' name='psw' required><br><br>
-                <button class='field' type'submit' style='height:3%; width:auto; cursor:pointer'>Login</button>
+            <table style='margin: auto;'>
+                <tr>
+                    <td><label><b>Username</b></label></td>
+                    <td><label><b>Password</b></label></td>
+                </tr>
+                <tr>          
+                    <td><input class='field' type='text' placeholder='Enter username' name='uname' required></td>
+                    <td><input class='field' type='password' placeholder='Enter password' name='psw' required></td>
+                </tr>
+            </table>
+                <br>
+                <button class='field' type='submit' style='height:3%; width:30%; padding:3%; cursor:pointer'>Login</button>
            </form>
-
+                <p>No login? <a href='create_login.php'>Create an account</a></p>
         </div>
     </div>
 </div>";

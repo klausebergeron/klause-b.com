@@ -23,7 +23,7 @@ if($_POST["uname"] != ""){
 -->
 	<head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+	<meta charset='utf-8'>
         <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Princess Sofia' rel='stylesheet'>
@@ -59,6 +59,8 @@ if($_POST["uname"] != ""){
         if($pass == "")
             $pass = $_COOKIE['password'];
 
+        //$file = './twitterClassifs/userDataDumps.txt';
+        //$dumpFile = fopen($file, 'a') or die('Cannot open file:  '.$file);
     
 @ $mysqli = new mysqli('mysqlcluster23', 'klause', 'calmD0wn!', 'sorters');
 if ($mysqli->connect_errno) {
@@ -87,7 +89,8 @@ if ($mysqli->connect_errno) {
 
             $upTo = $row['upTo']; //tracks wich tweet they're up to classifying
             echo "<div class='content'>
-                <div class='loginInf'></img>".$user."<img src='http://freevector.co/wp-content/uploads/2011/04/59046-twitter-logo-outline-200x200.png' id='tLogo'></div>";
+                <div class='loginInf topLF'>".$user."<img src='http://freevector.co/wp-content/uploads/2011/04/59046-twitter-logo-outline-200x200.png' id='tLogo'></div>
+                <div class='loginInf' style='text-align:right;'><a style='color: black;'href='classify_tweets_login.php'>Switch User</a></div>";
         $tweet = "SELECT * FROM streamingTweets WHERE tweetID ='".$upTo."'";
         $tresult = $mysqli->query($tweet);
         $trow = $tresult->fetch_assoc();
@@ -95,7 +98,7 @@ if ($mysqli->connect_errno) {
             echo "
         <div id='underline' style='width: 100%; height: 1%; background: #fff; margin-bottom:3%;'></div>
             <div id='mainBox'>
-                <h3>Would you consider the following tweet an indicator that it's author may suffer from depression:</h3>
+                <h3>Would you consider the following tweet an indicator that its author may suffer from depression:</h3>
                     <div id='textBox'>
                         <div id='numTracker'>Tweet #".$trow['tweetID']."</div><br>
                         <div id = 'tweetText'>".$trow['tweetText']."</div>

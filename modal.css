@@ -57,13 +57,13 @@
 }
 
 @-webkit-keyframes animateSideL {
-    from {left:200px; opacity:0.3} 
-    to {left:0px; opacity: 1}
+    from {width:90%;} 
+    to {width:110%;}
 }
 
 @keyframes animateSideL {
-    from {left:200px;  opacity:0.3} 
-    to {left:0px; opacity: 1}
+    from {width:90%;} 
+    to {width:110%;}
 }
 
 @-webkit-keyframes animateSideR {
@@ -133,14 +133,10 @@
 }
 
 .sliderL {
-		-webkit-transition: width 3s; /* Safari */
-	-webkit-transition-timing-function: ease;
-    transition: width 3s;
-	transition-timing-function: ease;
 	-webkit-animation-name: animateSideL;
-    -webkit-animation-duration: 0.6s;
+    -webkit-animation-duration: .9s;
     animation-name: animateSideL;
-    animation-duration: 0.6s;
+    animation-duration: 0.9s;
 	background: rgba(255, 255, 255, 0.9); 
   background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.9) , rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, rgba(255, 255, 255, 0.9) ,rgba(255, 255, 255, 0.9),  rgba(255, 255, 255, 0)w); /* For Opera 11.1 to 12.0 */
@@ -149,14 +145,10 @@
 }
 
 .sliderR {
-		-webkit-transition: width 3s; /* Safari */
-	-webkit-transition-timing-function: ease;
-    transition: width 3s;
-	transition-timing-function: ease;
 	-webkit-animation-name: animateSideR;
-    -webkit-animation-duration: 0.6s;
+    -webkit-animation-duration: 0.5s;
     animation-name: animateSideR;
-    animation-duration: 0.6s;
+    animation-duration: 0.5s;
 	background-color: rgba(250, 250, 250, 0.5);
 }
 
@@ -180,6 +172,7 @@
 	font-family: 'Bellefair';
 	text-align: left;
 	align-items: right;
+	position: relative;
 }
 
 .innerT {

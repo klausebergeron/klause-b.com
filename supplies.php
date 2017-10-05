@@ -4,9 +4,11 @@
         
         <?php include 'includes/mostLinks.php'; getLinks();?>
         <link rel='stylesheet' type="text/css" href='artpgStyles.css'>
-        <link rel='stylesheet' type="text/css" href='suppliesStyles.css'>
+        <link rel='stylesheet' type="text/css" href='includes/suppliesStyles.css'>
         <link rel='stylesheet' type="text/css" href='flexBoxes.css'>
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<link media="only screen and (max-device-width: 480px)"
+            href="iphone.css" type="text/css" rel="stylesheet" /> 
     </head>
 
         <body style="background: #D6D5CC; height: 100%;">
@@ -15,7 +17,7 @@
         showHeadbar('art');
      ?>
 
-    <div id='sideBar' style="z-index: -1; width:22%">
+    <div id='sideBar' class='mobile_hidden' style="z-index: -1; width:22%">
         <h1 class='title'>Art</h1>
         <div id='underlinethin'></div>
         <p1>Here's a<br>page where you can fake buy fake art supplies<br> and get a fake receipt</p>
@@ -100,7 +102,7 @@
         var myMarker = new Marker('brush', 'black', 0)
     </script>
 
-    <div class='main cont' style='left:24%; align-items: flex-start;'>
+    <div class='main cont moveright' style='align-items: flex-start;'>
         <table class='mainTables' id='store'>
             <tr class='cont' style='background-color: #d8d8d8; margin-bottom: 5%;'>
                 <th>Store</th>

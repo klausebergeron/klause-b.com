@@ -1,0 +1,191 @@
+#inner {
+    position: absolute;
+    top:70px;
+    height: 100%;
+    width:90%;
+    left:10%;
+}
+
+#circleSpace {
+    position: absolute;
+    top:-50px;
+    left:-50px;
+    height: 700px;
+    width:700px;
+}
+
+#miniCircleSpace {
+    position: absolute;
+    top:-50px;
+    left:500px;
+    height: 700px;
+    width:700px;
+}
+#centercircle {
+	-moz-border-radius: 200%;
+    -webkit-border-radius: 200%;
+    border-radius: 200%;
+    background-color: #152E5B;
+	width:50%;
+	height: 50%;
+    display: block;
+    left:25%;
+    top: 25%;
+    position: absolute;
+    color: white;
+}
+
+.planet {
+	-moz-border-radius: 200%;
+    -webkit-border-radius: 200%;
+    border-radius: 200%;
+    background-color: #152E5B;
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    left:40%;
+    top: 40%;                                    
+}
+
+.miniPlanet {
+    -moz-border-radius: 200%;
+    -webkit-border-radius: 200%;
+    border-radius: 200%;
+    border-style: solid;
+    border-color:#152E5B; 
+    height: 13%;
+    width: 13%;
+    position: absolute;
+    margin-left: 10%;
+    line-height: 84px; 
+    text-align: center;
+    font-size: 15pt;
+    -webkit-animation: appear 1s; /* Chrome, Safari 5 */
+    -moz-animation: appear 1s; /* Firefox 5-15 */
+    -o-animation: appear 1s; /* Opera 12+ */
+    animation: appear 1s; /* Chrome, Firefox 16*/
+}
+.planet:hover {
+	cursor: pointer;
+}
+
+.miniPlanet:hover {
+    cursor: pointer;
+}
+.planet1 {
+	-webkit-animation: orbits 2s linear 12 forwards; /* Chrome, Safari 5 */
+    -moz-animation: orbits 2s linear 12 forwards; /* Firefox 5-15 */
+    -o-animation: orbits 2s linear .12 forwards; /* Opera 12+ */
+    animation: orbits 2s linear .12 forwards; /* Chrome, Firefox 16*/
+}
+
+.planet2 {
+	-webkit-animation: orbits 2s linear .22 forwards; /* Chrome, Safari 5 */
+    -moz-animation: orbits 2s linear .22 forwards; /* Firefox 5-15 */
+    -o-animation: orbits 2s linear .22 forwards; /* Opera 12+ */
+    animation: orbits 2s linear .22 forwards; /* Chrome, Firefox 16+*/
+}
+
+.planet3 {
+	-webkit-animation: orbits 2s linear .32 forwards; /* Chrome, Safari 5 */
+    -moz-animation: orbits 2s linear 32 forwards; /* Firefox 5-15 */
+    -o-animation: orbits 2s linear 32 forwards; /* Opera 12+ */
+    animation: orbits 2s linear .32 forwards; /* Chrome, Firefox 16+*/
+}
+
+.planet4 {
+	-webkit-animation: orbits 2s linear .42 forwards; /* Chrome, Safari 5 */
+    -moz-animation: orbits 2s linear .42 forwards; /* Firefox 5-15 */
+    -o-animation: orbits 2s linear .42 forwards; /* Opera 12+ */
+    animation: orbits 2s linear .42 forwards; /* Chrome, Firefox 16+*/
+}
+
+.planet5 {
+	-webkit-animation: orbits 2s linear .52 forwards; /* Chrome, Safari 5 */
+    -moz-animation: orbits 2s linear .52 forwards; /* Firefox 5-15 */
+    -o-animation: orbits 2s linear .52 forwards; /* Opera 12+ */
+    animation: orbits 2s linear infinite; /* Chrome, Firefox 16+*/
+}
+
+.planet6 {
+	-webkit-animation: orbits 2s linear 1 forwards; /* Chrome, Safari 5 */
+    -moz-animation: orbits 2s linear 1 forwards; /* Firefox 5-15 */
+    -o-animation: orbits 2s linear 1 forwards; /* Opera 12+ */
+    animation: orbits 2s linear infinite; /* Chrome, Firefox 16+*/
+}
+
+@-webkit-keyframes orbits {
+    from { -webkit-transform: rotate(270deg) translateX(190%) rotate(270deg); opacity: 0;}
+    to   { -webkit-transform: rotate(630deg) translateX(190%) rotate(-630deg); opacity: 1;}
+}
+
+@-moz-keyframes orbits {
+    from { -moz-transform: rotate(270deg) translateX(190%) rotate(270deg); opacity: 0;}
+    to   { -moz-transform: rotate(630deg) translateX(190%) rotate(-630deg); opacity: 1;}
+}
+
+@-o-keyframes orbits {
+    from { -o-transform: rotate(270deg) translateX(190%) rotate(270deg); opacity: 0;}
+    to   { -o-transform: rotate(630deg) translateX(190%) rotate(-630deg); opacity: 1;}
+}
+
+@keyframes orbits {
+    from { transform: rotate(270deg) translateX(190%) rotate(270deg); opacity: .5;}
+    to   { transform: rotate(630deg) translateX(190%) rotate(-630deg); opacity: .5;}
+}
+
+.titleW {
+	color: white;
+    top: 40%;
+	font-size: 50pt;
+	position: absolute;
+	z-index: 20;
+	left:25%;
+    height: auto;
+    font-family:'Allura';
+   	width:auto;
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+@-webkit-keyframes appear {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+@-moz-keyframes appear {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+@-o-keyframes appear {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+.subtitleW {
+    position: relative;
+	color: white;
+	font-size: 25pt;
+	width: 100px; 
+	z-index: 20;	
+	font-family:'Allura';
+	text-align: right;
+	opacity: 0;
+	-webkit-animation: appear forwards;
+	-webkit-animation-duration: 1s;
+	animation: appear forwards;
+	animation-duration: 1s;
+    line-height: 30px;
+}
+
+#leftBlock {
+	height: 100%;
+	width:10%;
+	position: fixed;
+	background-color:#152E5B;
+	border-right-style: solid;
+	border-right-width: 20px;
+	border-right-color: #4f6ea8;
+	z-index: -3;
+}
+

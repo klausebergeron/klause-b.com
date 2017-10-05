@@ -15,9 +15,18 @@
      ?>
     
     
-    <div id='underline' style='width: 100%; height: 5%;'></div>
-	
-	
+    <div id='underline' style='width: 100%; height: 80px;'></div>
+	<div class='content' style='margin-left: 2%;'>
+	<h1>Currently under construction</h1>
+	<h3>There will be more pretty things here soon, <br>but feel free to check out the links below</h3>
+<br><br>
+		<div><a href='https://prezi.com/p/w6uqdhhalxd8/'>Automatic Cell Counting in Microscopy Images
+													<br>Using Convolutional Neural Networks</a>
+	</div><br>
+<div><a href='http://www.csdept.csi.cuny.edu/~drsturm/Mouster/index.html'>Point Mouster Game
+													<br>Motivational Feedback in Programming Education</a>
+
+	</div>
 				<!--<table class='top'>
 					<tr>
 						<td class='extends'>

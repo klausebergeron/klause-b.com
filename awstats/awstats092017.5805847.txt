@@ -1,0 +1,573 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201709 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 10386               
+POS_DAY 16860               
+POS_DOMAIN 3323                
+POS_LOGIN 3557                
+POS_ROBOT 3712                
+POS_WORMS 4226                
+POS_EMAILSENDER 4357                
+POS_EMAILRECEIVER 4500                
+POS_SESSION 17655               
+POS_SIDER 17865               
+POS_FILETYPES 4635                
+POS_OS 4828                
+POS_BROWSER 4949                
+POS_SCREENSIZE 5217                
+POS_UNKNOWNREFERER 5291                
+POS_UNKNOWNREFERERBROWSER 5996                
+POS_ORIGIN 6396                
+POS_SEREFERRALS 6540                
+POS_PAGEREFS 6716                
+POS_SEARCHWORDS 7124                
+POS_KEYWORDS 7276                
+POS_MISC 2200                
+POS_ERRORS 7335                
+POS_CLUSTER 3413                
+POS_SIDER_404 7458                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171001015455 1 0 12245430135504
+FirstTime 20170901112252
+LastTime 20170930141623
+LastUpdate 20171002044622 1 0 0 0 0
+TotalVisits 261                 
+TotalUnique 159                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 166                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 278 367 14813604 14 93 58741
+1 9 15 39650 5 5 2875
+2 3 6 232788 1 2 1150
+3 8 12 32271 3 4 2300
+4 1 1 3208 2 3 3783
+5 12 19 267655 2 3 4358
+6 1 1 3208 1 1 575
+7 1 10 430728 6 6 5736
+8 127 172 8172780 15 26 14950
+9 13 23 103177 5 5 2875
+10 100 194 2450370 3 5 8141
+11 628 855 18635056 6 33 509048
+12 229 318 4969105 2 29 78868
+13 211 421 148575512 5 12 189696
+14 76 184 14411993 22 33 21608
+15 180 228 6329185 2 12 9533
+16 308 379 3247674 11 14 13316
+17 83 211 14251099 5 7 6658
+18 70 115 1750683 0 3 1725
+19 21 36 536078 1 17 434753
+20 81 221 16061336 12 32 1226011
+21 48 70 3480833 15 29 969890
+22 40 189 22735095 17 56 34833
+23 411 510 16441970 15 34 22183
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2939 4557 297975058
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 19 1185426 20170925215829 0
+phantom 10 430728 20170928192751 0
+yandex 9 28872 20170923123945 0
+commons\-httpclient 4 126686 20170926121229 0
+\wbot[\/\-] 4 226372 20170925115843 0
+python 3 6416 20170920101513 0
+surveybot 2 6416 20170930203057 0
+spider 2 6416 20170928075241 0
+java 2 120270 20170912132809 0
+mj12bot 2 6416 20170926144934 0
+netcraft 1 3208 20170907205641 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+map 10 1014820 0 0
+css 686 17196611 0 0
+php 2724 133036377 0 0
+png 432 32400786 0 0
+html 205 1398673 0 0
+js 35 1539549 0 0
+jpg 465 111388242 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 1056
+winxp 16
+winlong 4
+win2003 4
+win2000 1
+winnt 3373
+Unknown 22
+linux 81
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+msie8.0 99
+firefox3.0.3 1
+msie6.0 1
+firefox32.0 4
+firefox48.0 2
+mozilla 100
+msie7.0 11
+msie10.0 21
+firefox55.0 64
+firefox41.0 1
+firefox3.6.3 1
+firefox54.0 142
+msie9.0 5
+Unknown 10
+firefox24.0 1
+safari 4093
+netscape 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+Mozilla 20170914034402
+PocketParser/2.0_(_https://getpocket.com/pocketparser_ua) 20170906114146
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170930012505
+IPS/1.0 20170912132631
+Mozilla/5.0_(compatible;_ips-agent) 20170907030555
+panscient.com 20170927172724
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170915061940
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170914230914
+Microsoft_Office_Word_2013 20170913222307
+Mozilla/5.0_(Android_8.0.0;_Mobile;_rv:55.0)_Gecko/55.0_Firefox/55.0 20170906114216
+Mozilla/5.0_(Android_7.0;_Mobile;_rv:55.0)_Gecko/55.0_Firefox/55.0 20170906124243
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+PocketParser/2.0_(_https://getpocket.com/pocketparser_ua) 20170906114146
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170914230914
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170915061940
+IPS/1.0 20170912132631
+Microsoft_Office_Word_2013 20170913222307
+panscient.com 20170927172724
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 283 303
+From1 0 0
+From2 11 11
+From3 67 67
+From4 2578 4176
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 1 1
+yandex 9 9
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://m.facebook.com 40 40
+http://www.bing.com/search 9 9
+https://www.facebook.com 8 8
+http://www.marinetraffic.com 5 5
+https://m.facebook.com 2 2
+https://getpocket.com 1 1
+http://l.facebook.com/l.php 1 1
+http://adapi.ragapa.com/set-ragapa-uid-cookie.jsp 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 14 1252477
+500 2 0
+405 1 228
+404 389 223675
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 55
+/sitemap.xml 1 -
+/robots.txt 36 -
+/wordpress/ 6 -
+/apple-touch-icon.png 2 -
+/admin.php 1 -
+/writingstyles.css 1 -
+/writing_works/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css 33 http://klause-b.com/writing_works/siliconFaerie_ch2.php
+/new/wp-admin/setup-config.php 1 -
+/.well-known/assetlinks.json 3 -
+/.well-known/apple-app-site-association 3 -
+/site/wp-admin/setup-config.php 1 -
+/beta/wp-admin/setup-config.php 1 -
+/admin/login.php 1 -
+/krd.txt 2 -
+/joomla/robots.txt 3 -
+/navbarStyles.css 1 http://klause-b.com/test.php
+/blog/ 6 -
+/twitterClassifs/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js 1 http://klause-b.com/twitterClassifs/classify_tweets_login.php
+/twitterClassifs/checkusername.php 1 http://klause-b.com/twitterClassifs/create_login.php
+/wp/ 6 -
+/programspg.php 5 http://klause-b.com/twitterClassifs/classify_tweets_login.php
+/xmlrpc.php 6 -
+/blog/administrator/index.php 3 -
+/apple-touch-icon-precomposed.png 2 -
+/suppliesStyles.css 3 http://klause-b.com/supplies.php
+/blog/robots.txt 9 -
+/writing_works/topBar.css 33 http://klause-b.com/writing_works/siliconFaerie_ch2.php
+/user/ 1 -
+/bitrix/admin/index.php 1 -
+/writing_works/logos_buttons/sanddollar.png 5 http://klause-b.com/writing_works/melody.php
+/blog/wordpress/wp-admin/setup-config.php 1 -
+/administrator/index.php 4 -
+/writing_works/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css 33 http://klause-b.com/writing_works/siliconFaerie_ch2.php
+/apple-touch-icon-120x120.png 2 -
+/twitterClassifs/websitespg.php 8 http://klause-b.com/twitterClassifs/classify_tweets_login.php
+/writing_works/sidebarStyles.css 33 http://klause-b.com/writing_works/siliconFaerie_ch2.php
+/api/v3/ajax/public/email-subscriptions 1 http://klause-b.com/etsySource.html
+/preload/ 1 http://klause-b.com/etsySource.html
+/wp-includes/js/jquery/suggest.js 1 -
+/bootstrap.min.css.map 5 -
+/apple-touch-icon-120x120-precomposed.png 2 -
+/wp-admin/setup-config.php 1 -
+/animated_favicon1.gif 16 http://klause-b.com/
+/clientlog 2 http://klause-b.com/etsySource.html
+/writing_works/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css 33 http://klause-b.com/writing_works/siliconFaerie_ch2.php
+/logo.ico 47 http://klause-b.com/
+/shop_name_search_service 2 http://klause-b.com/etsySource.html
+/joomla/administrator/index.php 3 -
+/api/v3/ajax/public/category-nav/view/subnav 2 http://klause-b.com/etsySource.html
+/wp-login.php 2 -
+/downloader 3 -
+/twitterClassifs/logos_buttons/klause-b-stencil-logo8.png 1 http://klause-b.com/twitterClassifs/classify_tweets_login.php
+/apple-app-site-association 3 -
+/admin/ 1 -
+/security/edid/signin-form 4 http://klause-b.com/etsySource.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 166
+96.250.197.144 770 1010 21551050 20170927203318
+66.65.68.33 757 1219 56559077 20170930114701
+163.238.226.176 537 553 122601858 20170906132537
+108.29.140.13 137 194 699584 20170929092359
+107.77.106.130 126 147 1013572 20170906120032
+108.53.252.193 81 84 220156 20170906152623
+143.55.176.198 63 66 155751 20170906125036
+196.52.2.102 53 56 150061 20170906181441
+70.208.66.12 38 40 118675 20170902232805
+166.137.252.66 35 35 98421 20170923133714
+66.102.7.19 0 1 25039 
+70.214.72.195 1 1 3208 20170916123924
+69.58.178.56 1 1 3208 20170907030555
+64.74.215.174 1 1 3208 20170908090956
+66.249.80.33 0 2 66051 
+129.3.210.130 1 1 3523 20170906151549
+136.25.134.225 1 4 25692 20170906112652
+158.69.26.193 3 3 9624 20170930012506
+163.238.213.102 1 1 3523 20170906110343
+66.249.83.85 5 5 16040 20170923111315
+213.205.198.51 1 1 3523 20170906154719
+163.238.237.8 17 63 6550609 20170912150813
+47.20.114.162 1 4 25692 20170906124242
+70.214.87.147 1 1 3208 20170922142025
+100.35.47.77 2 2 6416 20170927172724
+128.69.225.174 3 7 16231 20170918050209
+139.227.145.214 1 1 3208 20170912034353
+98.15.153.217 1 1 3523 20170906194557
+107.77.106.120 1 10 430575 20170903165421
+70.214.89.9 1 1 5188 20170911150052
+70.214.76.174 2 5 67671 20170925213536
+72.229.50.42 4 49 6495761 20170906113441
+71.190.187.77 1 4 25692 20170907220825
+68.132.10.169 4 22 694455 20170906173149
+52.33.181.134 1 1 3208 20170908095727
+24.168.10.61 1 1 3523 20170906115216
+163.238.245.158 3 13 462500 20170906170036
+81.138.72.149 3 3 9471 20170920155039
+108.176.17.210 4 45 6558238 20170920175106
+163.238.195.149 4 21 686611 20170911111838
+70.214.64.59 12 60 8841942 20170914231424
+100.2.134.122 1 1 3523 20170906113407
+132.170.212.16 1 4 25692 20170906171233
+100.37.56.141 1 1 3523 20170921112111
+97.35.0.126 1 1 5188 20170912170415
+163.172.4.153 1 1 3208 20170909183759
+173.252.84.88 0 1 60135 
+45.76.5.167 1 1 3208 20170924041100
+64.74.215.176 1 1 3208 20170907024348
+70.214.84.127 5 28 796310 20170908184327
+138.246.253.19 1 1 0 20170929155938
+64.74.215.140 1 4 226372 20170922051412
+128.68.28.129 1 3 7217 20170910011759
+173.56.14.244 1 1 3523 20170906232843
+130.132.173.15 1 1 3523 20170921164423
+188.255.59.142 3 9 53181 20170918102129
+70.214.79.178 1 1 5188 20170913093420
+70.42.131.170 9 90 3876552 20170923135011
+73.39.124.152 1 1 3523 20170907004817
+71.183.117.200 1 4 25692 20170906172341
+109.173.52.218 3 9 53181 20170924212740
+205.132.151.17 1 1 3523 20170906173441
+163.238.242.243 12 58 6619446 20170925165320
+71.183.216.35 1 1 3523 20170906120913
+38.100.21.62 1 4 226372 20170906124034
+66.189.43.77 1 1 3523 20170906111439
+66.249.88.65 1 1 3208 20170926124156
+70.199.70.208 1 1 3208 20170924132420
+151.202.46.139 1 1 3523 20170906111239
+141.155.60.158 19 76 9576057 20170913224434
+139.227.144.134 1 1 3208 20170918191337
+70.214.69.99 7 14 44352 20170904175140
+209.147.144.2 1 1 3523 20170906112431
+52.204.28.86 1 1 3523 20170906114146
+64.74.215.170 1 1 3208 20170910123515
+70.192.66.179 1 1 3208 20170927095653
+69.171.225.75 0 1 60135 
+107.77.70.95 8 94 13003357 20170909133620
+163.238.251.14 12 77 12038522 20170909141520
+188.120.232.81 1 1 3208 20170913081127
+66.102.7.23 0 1 191738 
+70.214.79.51 2 2 10376 20170909132617
+146.185.144.64 1 1 3208 20170911133638
+70.214.80.113 5 5 16040 20170921233817
+66.249.83.202 6 6 19095 20170929215351
+38.104.190.78 1 4 25692 20170906135803
+163.238.246.169 12 50 7805809 20170913143431
+109.63.225.139 3 7 16231 20170910011918
+70.214.65.100 3 20 677151 20170914161552
+139.227.144.151 2 2 6416 20170929024659
+52.13.232.78 1 1 3208 20170929151606
+70.208.78.53 1 1 5188 20170911104923
+175.42.43.37 1 1 3208 20170907165101
+35.155.215.147 1 1 3208 20170919213417
+66.249.80.36 1 1 3208 20170908113423
+208.97.144.184 1 1 3208 20170922091553
+70.208.65.228 1 4 25692 20170906114135
+95.85.31.155 1 1 3208 20170915061940
+24.168.126.198 1 1 3523 20170906113541
+176.77.9.211 3 9 53181 20170911201957
+139.227.144.236 1 1 3208 20170930054519
+70.214.81.40 1 1 5188 20170908085555
+130.132.173.138 3 15 468765 20170906111033
+66.249.88.94 1 1 3208 20170919105347
+98.109.29.123 1 1 3523 20170906232036
+204.10.44.252 1 4 25692 20170906114441
+104.192.74.38 2 2 6416 20170914034402
+70.214.68.190 2 4 8396 20170914205828
+95.220.198.202 1 3 7217 20170910102027
+173.252.86.218 1 1 3523 20170914230914
+82.38.72.26 2 2 7046 20170906165309
+66.249.83.206 5 5 15887 20170930141623
+172.58.224.59 1 1 3523 20170906153300
+68.132.14.209 3 6 33893 20170906172650
+77.220.213.169 1 1 3208 20170907092105
+66.249.83.83 3 3 9624 20170925114611
+163.238.138.25 1 4 25692 20170906114139
+70.214.75.136 2 2 6416 20170927204305
+52.43.165.219 1 1 3208 20170914052005
+208.120.19.79 1 1 3523 20170907100827
+148.75.243.239 1 1 3523 20170921192725
+64.74.215.134 1 4 226372 20170907023532
+66.249.83.204 8 8 25205 20170928181249
+67.244.107.191 3 14 462577 20170906135137
+66.249.80.62 0 5 144692 
+108.61.117.183 4 4 12220 20170905055155
+52.13.162.95 1 1 3208 20170920121022
+70.214.69.90 1 1 5188 20170911214131
+163.238.233.72 3 3 8843 20170924152850
+72.226.35.179 1 1 3523 20170906155137
+18.221.176.74 1 1 3208 20170926141757
+70.214.77.143 2 2 6416 20170920165525
+66.249.83.84 3 3 9624 20170925154920
+35.184.93.156 1 1 3208 20170915213752
+70.214.77.30 2 2 6110 20170901210741
+104.238.248.15 1 1 3208 20170924054226
+64.74.215.154 1 1 3208 20170923032854
+70.199.69.65 2 2 6416 20170918182624
+70.214.75.128 1 1 5188 20170910152706
+176.15.59.202 1 4 25692 20170911201907
+71.173.68.88 1 1 3523 20170906143107
+13.91.40.20 0 1 60135 
+34.207.71.20 1 1 3523 20170906114145
+88.99.2.215 1 1 3208 20170906211732
+130.132.173.58 1 1 3523 20170906124332
+121.169.194.185 1 1 3208 20170911142741
+172.58.233.120 2 5 29215 20170906142656
+68.132.235.10 4 42 6288781 20170909133248
+163.238.234.27 1 1 3523 20170906121630
+85.17.29.71 1 1 3208 20170925085718
+70.214.72.136 1 1 3208 20170922191401
+148.163.128.145 2 2 6416 20170920222154
+172.58.185.11 1 1 3523 20170909151339
+70.214.73.206 1 1 3208 20170926104006
+104.198.196.80 2 2 6416 20170908234940
+97.46.64.55 1 1 5188 20170914195740
+172.58.233.224 1 1 3523 20170906111950
+163.238.226.51 1 1 3208 20170915152753
+67.250.105.214 2 2 7046 20170929203009
+37.110.100.83 3 7 16231 20170924034605
+70.214.85.74 1 1 5188 20170913210611
+158.222.164.104 1 1 3523 20170907010824
+64.74.215.139 1 1 3208 20170922051443
+74.208.121.187 2 2 6416 20170921225217
+70.214.79.239 1 1 5188 20170907152034
+52.12.238.227 1 1 3208 20170920190706
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170901 3 3 9165 3
+20170902 39 41 121730 5
+20170903 6 30 1105712 5
+20170904 516 656 9345324 5
+20170905 200 227 1257620 6
+20170906 1069 1271 134568826 54
+20170907 13 28 717797 13
+20170908 153 372 9146987 16
+20170909 272 511 38773359 11
+20170910 200 225 3549432 11
+20170911 23 127 14888053 11
+20170912 106 265 24012584 11
+20170913 36 130 17465108 7
+20170914 27 98 9575192 12
+20170915 5 5 16040 5
+20170916 2 2 6416 2
+20170917 3 8 39447 2
+20170918 18 49 812534 8
+20170919 2 2 6416 2
+20170920 14 72 7471165 8
+20170921 9 9 29817 9
+20170922 8 20 676348 8
+20170923 117 178 10182262 5
+20170924 15 25 97503 9
+20170925 18 67 6705208 8
+20170926 4 4 12832 4
+20170927 38 56 772359 7
+20170928 4 47 6492117 2
+20170929 12 22 95249 8
+20170930 7 7 22456 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 17
+15mn-30mn 7
+30s-2mn 21
+0s-30s 192
+2mn-5mn 7
+30mn-1h 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/twitterClassifs/classify_tweets.php 974 4979427 39 44
+/twitterClassifs/vote.php 841 111012 9 8
+/twitterClassifs/checkusername.php 255 5158 0 0
+/ 201 633040 133 122
+/writingpg.php 177 1579087 6 6
+/twitterClassifs/classify_tweets_login.php 148 509014 57 58
+/websitespg.php 89 719026 7 5
+/twitterClassifs/create_login.php 51 209381 1 0
+/researchpg.php 45 296878 2 5
+/artpg.php 40 3170040 2 5
+/writing_works/belt.php 5 18320 0 0
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css.map 3 94581 0 0
+/includes/showHeadbar.php 2 0 0 0
+/writing_works/losing.php 5 23755 1 0
+/test.php 7 7492 1 0
+/supplies.php 8 221350 0 3
+/writing_works/gaps.php 4 18332 0 0
+/writing_works/stress_fractures.php 6 130746 1 1
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css.map 3 204132 0 0
+/twitterClassifs/add_user.php 13 7777 0 0
+/writing_works/melody.php 9 210972 0 1
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css.map 3 706785 0 0
+/writing_works/siliconFaerie_ch2.php 4 21724 0 1
+/twitterClassifs/make_docs.php 31 120680606 1 1
+/writing_works/siliconFaerie_ch1.php 5 48910 0 0
+/etsySource.html 4 765633 1 1
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-reboot.css.map 1 9322 0 0
+/writing_works/jamillaessay.php 5 67370 0 0
+END_SIDER

@@ -58,9 +58,9 @@ and I came<br>
 and I came.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Red wine rivers<br>
 &nbsp;&nbsp;&nbsp;&nbsp;drowned the moans<br>
-&nbsp;&nbsp;&nbsp;&nbsp;into holes I never knew <br>
-existed, ‘til they were<br>
-empty.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;into holes I hadn't noticed <br>
+‘til they were empty,<br>
+exposed.<br>
 <br>
 I want to say sorry but can’t handle <br>
 all the blame.<br>

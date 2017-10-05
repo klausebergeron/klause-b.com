@@ -4,13 +4,33 @@
 <style>
 #topbar{
     height: 12px;
-    width = 90%;
+    width: 100%;
     background: #333;
-    margin-top: 2%;
+    margin-top: 0.5%;
     margin-bottom: 6.5%;
 }
 
-#circle {
+@keyframes slideUp {
+    from {top:2000px;}
+}
+#resume {
+    width: 65%; height: 100%; position: absolute; z-index: 100; top: 100px; display: none;
+    animation-name: slideUp; animation-duration: 1s;
+}
+.bordered {
+    border-style: solid; border-color: black;
+}
+.slidesUp {
+    animation-name: slideUp; animation-duration: 1s;
+}
+#closeResume {
+    width: 65%; position: absolute; z-index: 100; top: 60px; height: 40px; line-height: 24pt; 
+    display: block; margin: auto; font-size: 20pt; text-align: right; padding-top:8px; display: none;
+}
+#closeResume:hover {
+    cursor: pointer;
+}
+.circle {
     position: static;
     margin: auto;
     width: 130px;
@@ -29,7 +49,13 @@ img {
     display: block;
     margin: auto;
 }
-
+img.low {
+    width: 30px;
+    height: 20px;
+    vertical-align: middle;
+}
+.lgf-icons { width:10%; max-height: 40px;  margin-top: 0.5%; margin-right: 0px !important; 
+    margin-left:75% !important; justify-content: space-around;}
 .button {
     position:relative;
     display: inline-block;
@@ -39,50 +65,87 @@ img {
 }
 </style>
 <link rel='stylesheet' type="text/css" href='bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css'>
+<link rel="shortcut icon" href="favicon.ico">
 <link rel='stylesheet' type="text/css" href='bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css'>
 <link rel='stylesheet' type="text/css" href='bootstrap-4.0.0-alpha.6-dist/css/bootstrap-reboot.css'>
 <script type="text/javascript" href='bootstrap-4.0.0-alpha.6-dist/js/bootstrap.js'></script>
+<script type="text/javascript" src="includes/jquery-3.2.1.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
-<body style="margin-bottom:10%;">
+<body style="margin-bottom:10%;" onload = "history.pushState('', '', 'http://klause-b.com')">
+<script>
+    $(document).ready(function(){
+        $("#closeResume").click(function(){
+            $("#resume").animate({top:1000}, 1000, function () {
+                $("#resume").hide();
+            }),
+            $("#closeResume").animate({top:1000}, 1000, function () {
+                $("#closeResume").hide();
+            });
+        }),
+        $("#openResume").click(function(){
+            $("#resume").animate({top:100}, 500, function () {
+                $("#resume").show();
+            }),
+            $("#closeResume").animate({top:60}, 500, function () {
+                $("#closeResume").show();
+            });
+        });
+    });
+</script>
+
+<div class="row lgf-icons">
+	<a href="https://github.com/klausebergeron"><img src="logos_buttons/github-logo.png" width="30" height="30" /></a>
+	<a href="https://www.linkedin.com/in/claudia-bergeron-3bb5b4149/"><img src="logos_buttons/linkedin-logo.png" width="30" height="30"/></a>
+	<a href="https://www.facebook.com/klause.bergeron"><img src="logos_buttons/facebook-logo.png" width="30" height="30"/></a>
+</div>
 <div id = 'topbar'></div>
+
+
 <img src="http://klause-b.com/logos_buttons/klause-b-logo.png" alt="klause-b" style="margin-bottom: 5%; width:25%;">
 
-<center style="margin-left: 20%; margin-right: 20%;">
-        <form class="button col-lg-2 col-md-4 col-sm-6" action="programspg.php">
-            <div id='circle' onmouseover="seeCircle(this, '#714B86')" onmouseout="hideCircle(this)">
-                <input type="image" src="logos_buttons/programs_button.png" class="w3-circle" width="110" height="110">
+<center class="row" style="margin-left: 20%; margin-right: 20%;">
+    <iframe class="bordered slidesUp" src = "Resume.pdf#zoom=100" id="resume"></iframe>
+    <div class="bordered slidesUp" id="closeResume"><img class="low" src="logos_buttons/lower-icon.png"/></div>
+
+        <div class="button col-lg-2 col-md-4 col-sm-6" >
+            <div class='circle' onmouseover="seeCircle(this, '#714B86')" onmouseout="hideCircle(this)" onclick="showResume()" id="openResume">
+                <input type="image" src="logos_buttons/resume_button.png" class="w3-circle" width="110" height="110">
 			</div>
-		</form>
+		</div>
         <form class="button col-lg-2 col-md-4 col-sm-6" action="writingpg.php">
-            <div id='circle' onmouseover="seeCircle(this, '#B3E1EB')" onmouseout="hideCircle(this)">
+            <div class='circle' onmouseover="seeCircle(this, '#B3E1EB')" onmouseout="hideCircle(this)">
                 <input type="image" src="logos_buttons/writing_button.png" width="110" height="110">
             </div>
         </form>
 
         <form class="button col-lg-2 col-md-4 col-sm-6" action="researchpg.php">
-            <div id='circle' onmouseover="seeCircle(this, '#276C3D')" onmouseout="hideCircle(this)">
+            <div class='circle' onmouseover="seeCircle(this, '#276C3D')" onmouseout="hideCircle(this)">
                 <input type="image" src="logos_buttons/research_button.png" width="110" height="110">
             </div>
         </form>
 
         <form class="button col-lg-2 col-md-4 col-sm-6" action="artpg.php">
-            <div id='circle' onmouseover="seeCircle(this, '#E2DD38')" onmouseout="hideCircle(this)">
+            <div class='circle' onmouseover="seeCircle(this, '#E2DD38')" onmouseout="hideCircle(this)">
                 <input type="image" src="logos_buttons/art_button.png" width="110" height="110">
             </div>
         </form>
-
-	<form class="button col-lg-2 col-md-4 col-sm-6" action="websitespg.php">
-            <div id='circle' onmouseover="seeCircle(this, '#723535')" onmouseout="hideCircle(this)">
+        <form class="button col-lg-2 col-md-4 col-sm-6" action="websitespg.php">
+            <div class='circle' onmouseover="seeCircle(this, '#723535')" onmouseout="hideCircle(this)">
                 <input type="image" src="logos_buttons/websites_button.png" class="w3-circle" width="110" height="110">
             </div>
         </form>
+
+
     </center>
 
 
 </body>
-<script>
 
+
+<script type="text/javascript">
 function seeCircle(x, color) {
     x.style.background = color;
 }
@@ -91,6 +154,13 @@ function hideCircle(x) {
     
     x.style.backgroundColor='transparent';
 }
+
+function showResume() {
+    document.getElementById('resume').style.display = "block";
+    document.getElementById('closeResume').style.display = "block";
+}
+
+
 </script>
 
 

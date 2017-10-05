@@ -13,6 +13,12 @@
     	box-shadow: 0px 5px 5px -0.5px black;
 	}
 
+@media (max-width: 400px) {
+	.header {
+		height: 40px;
+	}
+}
+
 	.myContainer {
 		padding-top: 0px;
     	padding-bottom: 15px;
@@ -31,7 +37,7 @@
 	}
 
 	.stencilLogo {
-		height: 40px;
+		height: 44px;
 		width: 44px;
 
 	}

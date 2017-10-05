@@ -1,0 +1,303 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201710 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2547                
+POS_VISITOR 7022                
+POS_DAY 7903                
+POS_DOMAIN 3179                
+POS_LOGIN 3411                
+POS_ROBOT 3566                
+POS_WORMS 3698                
+POS_EMAILSENDER 3829                
+POS_EMAILRECEIVER 3972                
+POS_SESSION 8069                
+POS_SIDER 8275                
+POS_FILETYPES 4107                
+POS_OS 4311                
+POS_BROWSER 4390                
+POS_SCREENSIZE 4516                
+POS_UNKNOWNREFERER 4590                
+POS_UNKNOWNREFERERBROWSER 4739                
+POS_ORIGIN 4883                
+POS_SEREFERRALS 5022                
+POS_PAGEREFS 5166                
+POS_SEARCHWORDS 5314                
+POS_KEYWORDS 5466                
+POS_MISC 2211                
+POS_ERRORS 5525                
+POS_CLUSTER 3267                
+POS_SIDER_404 5628                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171004231617 733 166766 11596776192494
+FirstTime 20171001135532
+LastTime 20171004231617
+LastUpdate 20171005044739 733 0 733 0 0
+TotalVisits 34                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 1 1 3762 0 1 575
+2 0 0 0 0 0 0
+3 1 1 3208 0 0 0
+4 0 0 0 4 4 2300
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 2 5 30880 0 0 0
+9 2 7 13786 0 0 0
+10 3 3 10178 0 2 1150
+11 1 5 3762 0 0 0
+12 97 101 487315 0 0 0
+13 445 461 6834180 12 15 1121686
+14 40 40 190286 0 0 0
+15 5 11 64968 0 0 0
+16 110 288 12582339 7 21 675880
+17 82 103 1462567 1 3 1725
+18 48 128 7812066 0 3 1725
+19 18 40 372150 0 0 0
+20 50 105 7064858 0 2 1150
+21 15 69 6985141 5 11 6325
+22 5 52 7145873 3 4 333721
+23 2 2 14223 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 927 1422 51081542
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 120 4813155 0 0
+png 275 8720179 0 0
+pdf 38 11985336 0 0
+php 523 2257057 0 0
+map 7 620932 0 0
+html 359 1841444 0 0
+js 11 1881504 0 0
+jpg 89 18961935 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 4
+macosx 126
+winnt 1287
+Unknown 2
+linux 7
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie7.0 3
+Unknown 2
+firefox56.0 36
+firefox55.0 18
+safari 1362
+firefox52.0 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+2121 20171004011331
+Microsoft_Office_Word_2014 20171003124941
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+2121 20171004011331
+Microsoft_Office_Word_2014 20171003124941
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 184 187
+From1 0 0
+From2 0 0
+From3 0 0
+From4 743 1235
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 22 2120937
+404 44 25300
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 18
+/writing_works/topBar.css 1 http://klause-b.com/writing_works/melody.php
+/robots.txt 1 -
+/administrator/components/com_joomlaupdate/restore.php 1 -
+/writing_works/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css 1 http://klause-b.com/writing_works/melody.php
+/.well-known/apple-app-site-association 1 -
+/.well-known/assetlinks.json 1 -
+/writing_works/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css 1 http://klause-b.com/writing_works/melody.php
+/logos_buttons/resume_button.png 2 http://klause-b.com/
+/writing_works/sidebarStyles.css 1 http://klause-b.com/writing_works/melody.php
+/websitespg.html 1 http://klause-b.com/etsySource.html
+/logos_buttons/klause-b-logo-circled.png 2 http://klause-b.com/researchpg.php
+/animated_favicon1.gif 8 http://klause-b.com/
+/clientlog 2 http://klause-b.com/etsySource.html
+/writing_works/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css 1 http://klause-b.com/writing_works/melody.php
+/logo.ico 16 -
+/includes/jquery.min.js 1 http://klause-b.com/
+/apple-app-site-association 1 -
+/security/edid/signin-form 2 http://klause-b.com/etsySource.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+163.238.241.172 424 426 1137570 20171002172733
+163.238.253.164 321 529 19344937 20171004175928
+66.65.68.33 126 322 21540076 20171003213113
+208.105.46.196 19 30 805605 20171003163213
+108.29.140.13 13 36 217996 20171003080229
+96.250.197.144 5 52 7145873 20171004224919 20171004224747 /artpg.php
+66.249.83.202 3 3 11848 20171004162458
+70.199.70.116 3 9 614791 20171004180103
+163.238.194.139 2 4 220456 20171003124941
+70.214.72.243 2 2 11512 20171004231617 20171004231617 /
+66.70.148.40 1 1 3762 20171004011331
+70.214.73.150 1 1 3552 20171003164816
+66.249.88.94 1 1 3208 20171002103006
+97.47.66.118 1 1 3208 20171003154927
+66.249.83.204 1 1 3762 20171003210653
+70.214.64.163 1 1 3208 20171002215037
+66.249.88.17 1 1 3208 20171003130216
+66.249.83.206 1 1 3762 20171004105143
+23.94.205.210 1 1 3208 20171002030722
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20171001 22 91 7153715 6
+20171002 429 431 1158869 7
+20171003 142 305 15638889 10
+20171004 334 595 27130069 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 1
+2mn-5mn 2
+15mn-30mn 1
+30s-2mn 3
+0s-30s 18
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 358 1652948 26 21
+/twitterClassifs/classify_tweets.php 236 1217227 4 3
+/twitterClassifs/vote.php 224 29568 0 1
+/Resume.pdf 38 11985336 1 1
+/researchpg.php 18 121982 0 0
+/websitespg.php 12 101678 2 3
+/artpg.php 8 634092 0 0
+/twitterClassifs/classify_tweets_login.php 8 28184 1 2
+/writingpg.php 7 67132 0 0
+/twitterClassifs/checkusername.php 6 30 0 0
+/writing_works/melody.php 1 23450 0 0
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css.map 2 63054 0 0
+/supplies.php 1 27563 0 0
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css.map 2 471190 0 0
+/twitterClassifs/create_login.php 1 4678 0 0
+/etsySource.html 1 188496 0 0
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css.map 1 68044 0 1
+/bootstrap-4.0.0-alpha.6-dist/css/bootstrap-reboot.css.map 2 18644 0 0
+/twitterClassifs/add_user.php 1 1473 0 0
+END_SIDER

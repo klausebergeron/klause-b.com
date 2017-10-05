@@ -1,0 +1,5 @@
+<?php
+@ $db = new mysqli('mysqlcluster23', 'klause', 'calmD0wn!', 'sorters');
+if (mysqli_connect_errno()) {
+    echo 'Unable to connect to DB...';
+?>

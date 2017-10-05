@@ -51,9 +51,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Ok," you took the paper, raising it in confirmation, "I'll probably be going in an hour or two, depending on my friends."</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Sounds great! I'll see you then. Thanks so much," she said, and winked, flipping your stomach over like a fish, desperately flopping back towards water. Then she tossed her hair over her shoulder and walked away before you could shape your mouth around the N in 'No problem.'</br>
 <br>
-<img src="logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
-<img src="logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
-<img src="logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
+<img src="../logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
+<img src="../logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
+<img src="../logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
 <br></br>
 "You. Lucky. Motherfucker." Jason picked an empty beer can off the car floor and squashed the butt of his cigarette into it. You lightly waved away the last wisps of smoke, shaking your head.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"It's not like I'm attracted to her," you refuted, "I hardly know her and, obviously, she's not my type. I mean, she's just..."</br>
@@ -64,9 +64,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Oh, fuck you, Karen!" Jason shot back, chucking the cigarette can at her. She spat out a spray of beer foam in alarm, sending the pair into hysterics.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You rolled your eyes. "Ok, shut up assholes, this is her street."</br>
 <br>
-<img src="logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
-<img src="logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
-<img src="logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
+<img src="../logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
+<img src="../logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
+<img src="../logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
 <br></br>
 Melody stood outside a yellow house looking like some kind of sea-swept Aphrodite. The wind seemed to catch her hair in slow motion, sweeping it across the curves of her body and into the air. She wore a black bikini, a stark contrast to her skin which glowed like a gibbous moon in the midday light. She caught sight of you rolling up the street and waved. There was nowhere to park so you motioned for her to come to the car. She made her way over, almost tripping on the curb and breaking the fall against the car door. She giggled, opening it, and falling into the backseat beside Karen.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hell-ooo!" she sang, voice of sterling bells. "Sorry about that, I don't use my legs enough, I'm trying to get into running but man! does it turn your legs to jelly at first!"</br>
@@ -80,9 +80,9 @@ Melody stood outside a yellow house looking like some kind of sea-swept Aphrodit
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karen was right; Melody did not in fact have a towel. Or anything, for that matter. "No," she replied, "I like being wet."</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jason let out a little moan, and stared at you with desperate eyes. You stifled laughter, turning the car into the parking lot. </br>
 <br>
-<img src="logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
-<img src="logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
-<img src="logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
+<img src="../logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
+<img src="../logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
+<img src="../logos_buttons/sanddollar.png" style="display: inline-block; height: 40px; width: 40px;">
 <br></br>
 Now that summer break had ended the beach was relatively empty. You set a blanket down on some warm sand in sight of the beach access. Karen dropped her well stocked cooler of various alcoholic beverages and one small bottle of water beside it. After an initial dip in the ocean the four of you settled down on the blanket with red solo cups full of cheap rum and orange juice. Conversation flowed easily with your friends there; no longer marinated in social anxiety you were once again the you you're happy to be most of the time. The alcohol didn't hurt either. Melody had no trouble slipping into the discussion as if she'd known you all for years. You grew warmer and louder with intoxication as the sun drooped and began to wilt into the rippling sea. Finally, when mere remnants of day alone kept the sky faintly glowing and stars began to appear behind you, Karen began to snore.  It dawned on you that somewhere along the way Jason and Karen had phased out of the conversation. You peered through the cellophane barrier of drunkenness and realized you'd been talking to Melody alone for a while.</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hey," said Jason with a yawn, "Karen's out. I texted for a ride, Sam's on the way to pick her up." He stuffed his cup into the cooler with the rest of the trash and leftovers. "I might go too."</br>
