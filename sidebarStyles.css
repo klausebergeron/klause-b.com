@@ -35,13 +35,25 @@ div#sideBar {
 }
 
 @media (max-width: 992px) {
+	#sideBar {
+		position: relative !important;
+		width: 100% !important;
+		height: fit-content;
+	}
 	.title {
+		width: 100%;
 		margin: 0;
 		margin-left:10%;
 		font-size: 60pt;
 		padding:1%;
 		float:left;
 	}
+	p1 {
+		width: 90% !important;
+		margin-top: 3% !important;
+		padding-top: 0 !important;
+	}
+
 }
 
 h2 {
